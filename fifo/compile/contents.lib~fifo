@@ -1,0 +1,21 @@
+3086
+~M 0 "" 0 $root
+~A 1 "" 0 $root
+~M 3 "./src/FIFO_TEST.v" 2 FIFO_TEST
+~A 1 "./src/FIFO_TEST.v" 2 FIFO_TEST
+~M 3 "./src/fifo.v" 51 WE_demux16_1
+~A 1 "./src/fifo.v" 51 WE_demux16_1
+~M 3 "./src/fifo.v" 108 comparator
+~A 1 "./src/fifo.v" 108 comparator
+~M 3 "./src/fifo.v" 4 counter
+~A 1 "./src/fifo.v" 4 counter
+~M 1 "./src/fifo.v" 28 d_trigger
+~A 1 "./src/fifo.v" 28 d_trigger
+~M 3 "./src/fifo.v" 105 fe_logic
+~A 1 "./src/fifo.v" 105 fe_logic
+~M 1 "./src/fifo.v" 116 fifo
+~A 1 "./src/fifo.v" 116 fifo
+~M 3 "./src/fifo.v" 77 memory
+~A 1 "./src/fifo.v" 77 memory
+~M 3 "./src/fifo.v" 35 mux16_1
+~A 1 "./src/fifo.v" 35 mux16_1

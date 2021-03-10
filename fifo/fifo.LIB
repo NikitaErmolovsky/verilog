@@ -1,0 +1,94 @@
+timestamp=1615387211956
+
+[$root]
+A/$root=22|""|0|1*673319
+BinI32/$root=3*390361
+Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
+
+[FIFO_TEST]
+A/FIFO_TEST=22|./src/FIFO_TEST.v|2|1*654595
+BinI32/FIFO_TEST=3*375051
+P/~emb=78,328,631,867
+R=./src/FIFO_TEST.v|2
+Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
+
+[WE_demux16_1]
+A/WE_demux16_1=22|./src/fifo.v|51|1*491979
+BinI32/WE_demux16_1=3*258670
+P/~emb=777,1003,1517,1587
+R=./src/fifo.v|51
+Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
+
+[comparator]
+A/comparator=22|./src/fifo.v|108|1*286975
+BinI32/comparator=3*159016
+P/~emb=164,318,466,530
+R=./src/fifo.v|108
+Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
+
+[counter]
+A/counter=22|./src/fifo.v|4|1*485736
+BinI32/counter=3*253408
+P/~emb=222,396,684,772
+R=./src/fifo.v|4
+Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
+
+[d_trigger]
+A/d_trigger=22|./src/fifo.v|28|1*487929
+BinI32/d_trigger=3*254845
+P/~emb=182,340,463,543
+R=./src/fifo.v|28
+Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
+
+[fe_logic]
+A/fe_logic=22|./src/fifo.v|105|1*500119
+BinI32/fe_logic=3*262411
+P/~emb=475,746,1038,1188
+R=./src/fifo.v|105
+Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
+
+[fifo]
+A/fifo=22|./src/fifo.v|116|1*673773
+BinI32/fifo=3*390500
+P/~emb=483,854,2208,2379
+R=./src/fifo.v|116
+Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
+
+[memory]
+A/memory=22|./src/fifo.v|77|1*495422
+BinI32/memory=3*259916
+P/~emb=1450,1740,2044,2140
+R=./src/fifo.v|77
+Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
+
+[mux16_1]
+A/mux16_1=22|./src/fifo.v|35|1*489171
+BinI32/mux16_1=3*255406
+P/~emb=873,1103,1615,1685
+R=./src/fifo.v|35
+Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
+
+[~A]
+LastVerilogToplevel=FIFO_TEST
+ModifyID=3086
+Version=73
+c:/My_Designs/fifo/fifo/src/FIFO_TEST.v=0*469539*470226
+c:/My_Designs/fifo/fifo/src/fifo.v=0*487703*489362
+
+[~MFT]
+0=461|0fifo.mgf|489362|109300
+1=505|1fifo.mgf|673773|652751
+3=505|3fifo.mgf|390500|378639
+
+[~U]
+$root=12|0*483392|
+FIFO_TEST=12|0*468299||0x90
+WE_demux16_1=12|0*350665||0x90
+comparator=12|0*211742||0x90
+counter=12|0*346725||0x90
+d_trigger=12|0*347818||0x80
+fe_logic=12|0*355431||0x90
+fifo=12|0*483638||0x80
+memory=12|0*352705||0x90
+mux16_1=12|0*348522||0x90
+
