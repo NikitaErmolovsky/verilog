@@ -1,1 +1,1 @@
- -erf "c:\My_Designs\fifo\fifo\compile\fifo.erf" -work fifo -lc c:/My_Designs/fifo/library.cfg -fl c:/My_Designs/fifo/fifo/projlib.cfg -o c:/My_Designs/fifo/fifo/compile -l "fifo" -sve   -O2
+ -erf "C:\My_Designs\fifo\fifo\compile\fifo.erf" -work fifo -lc C:/My_Designs/fifo/library.cfg -fl C:/My_Designs/fifo/fifo/projlib.cfg -o C:/My_Designs/fifo/fifo/compile -l "fifo" -sve   -O2

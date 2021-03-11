@@ -60,4 +60,3 @@ Selected=
 [Files.Data]
 .\src\fifo.v=Verilog Source Code
 .\src\FIFO_TEST.v=Verilog Source Code
-

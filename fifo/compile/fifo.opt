@@ -1,1 +1,1 @@
- -u "C:\Aldec\Active-HDL 9.1\bin/systf.dll" -v2k5  "c:\My_Designs\fifo\fifo\src\fifo.v"  -cs  -g 5  -r -li "c:\My_Designs\fifo\fifo\compile\fifo.epr" -p "c:\My_Designs\fifo\fifo" 
+ -u "C:\Aldec\Active-HDL 9.1\bin/systf.dll" -u "C:\Aldec\Active-HDL 9.1\bin/systf.dll" -v2k5  "C:\My_Designs\fifo\fifo\src\FIFO_TEST.v"  -cs  -g 5  -r -li "C:\My_Designs\fifo\fifo\compile\fifo.epr" -p "C:\My_Designs\fifo\fifo" 

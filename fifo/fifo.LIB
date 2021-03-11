@@ -1,14 +1,14 @@
-timestamp=1615387211956
+timestamp=1615475101720
 
 [$root]
-A/$root=22|""|0|1*673319
-BinI32/$root=3*390361
+A/$root=22|""|0|1*1094130
+BinI32/$root=3*726432
 Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
 
 [FIFO_TEST]
-A/FIFO_TEST=22|./src/FIFO_TEST.v|2|1*654595
-BinI32/FIFO_TEST=3*375051
-P/~emb=78,328,631,867
+A/FIFO_TEST=22|./src/FIFO_TEST.v|2|1*1094584
+BinI32/FIFO_TEST=3*726571
+P/~emb=152,497,912,1188
 R=./src/FIFO_TEST.v|2
 Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
 
@@ -48,9 +48,9 @@ R=./src/fifo.v|105
 Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
 
 [fifo]
-A/fifo=22|./src/fifo.v|116|1*673773
-BinI32/fifo=3*390500
-P/~emb=483,854,2208,2379
+A/fifo=22|./src/fifo.v|116|1*1077180
+BinI32/fifo=3*714498
+P/~emb=481,844,2342,2470
 R=./src/fifo.v|116
 Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
 
@@ -69,26 +69,28 @@ R=./src/fifo.v|35
 Version=9.1.2353.4205  (Windows)|0000000b789cd3cd5148cb4ccb57d0f537020013c7032c
 
 [~A]
+C:/My_Designs/fifo/fifo/src/FIFO_TEST.v=0*840084*840995
 LastVerilogToplevel=FIFO_TEST
-ModifyID=3086
+ModifyID=4916
 Version=73
-c:/My_Designs/fifo/fifo/src/FIFO_TEST.v=0*469539*470226
-c:/My_Designs/fifo/fifo/src/fifo.v=0*487703*489362
+c:/My_Designs/fifo/fifo/src/FIFO_TEST.v=0*833458*834369
+c:/My_Designs/fifo/fifo/src/fifo.v=0*829226*831077
+c:/My_Designs/fifo/fifo/src/fifo.v_FIFO_TEST.v=0*793567*796198
 
 [~MFT]
-0=461|0fifo.mgf|489362|109300
-1=505|1fifo.mgf|673773|652751
-3=505|3fifo.mgf|390500|378639
+0=938|0fifo.mgf|840995|231815
+1=827|1fifo.mgf|1094584|1066802
+3=827|3fifo.mgf|726571|709375
 
 [~U]
-$root=12|0*483392|
-FIFO_TEST=12|0*468299||0x90
+$root=12|0*838122|
+FIFO_TEST=12|0*838368||0x90
 WE_demux16_1=12|0*350665||0x90
 comparator=12|0*211742||0x90
 counter=12|0*346725||0x90
 d_trigger=12|0*347818||0x80
 fe_logic=12|0*355431||0x90
-fifo=12|0*483638||0x80
+fifo=12|0*824792||0x80
 memory=12|0*352705||0x90
 mux16_1=12|0*348522||0x90
 
